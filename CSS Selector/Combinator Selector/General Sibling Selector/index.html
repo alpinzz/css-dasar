@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Sibling Selector</title>
+    <style>
+      div ~ p {
+        color: orangered;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Dasar</h1>
+
+    <h3>General Sibling Selector</h3>
+    <!-- Memilih seluruh element sibling(saudara) dari element yang dipilih -->
+    <!-- Harus memiliki parent yang sama -->
+    <div>
+      <article>
+        <p>Tidak Dipilih</p>
+      </article>
+      <p>Tidak Dipilih</p>
+    </div>
+    <p>Dipilih</p>
+    <p>Dipilih</p>
+  </body>
+</html>

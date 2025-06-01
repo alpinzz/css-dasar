@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descendant Selector</title>
+    <style>
+      /* Memilih semua tag p yang ada didalam tag div */
+      div p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Dasar</h1>
+
+    <h3>Descendant Selector</h3>
+    <!-- Descendant Selector memilih element child dari element yang dipilih -->
+    <div>
+      <article>
+        <p>Dipilih</p>
+      </article>
+      <p>Dipilih</p>
+    </div>
+    <p>Tidak Dipilih</p>
+  </body>
+</html>

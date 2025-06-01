@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child Selector</title>
+    <style>
+      /* Memilih semua tag p yang child dari element div */
+      div > p {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Css Dasar</h1>
+
+    <h3>Child Selector</h3>
+    <!-- Child Selector memilih element yang langsung child dari element parent -->
+    <div>
+      <article>
+        <p>Tidak Dipilih</p>
+      </article>
+      <p>Dipilih</p>
+    </div>
+    <p>Tidak Dipilih</p>
+  </body>
+</html>

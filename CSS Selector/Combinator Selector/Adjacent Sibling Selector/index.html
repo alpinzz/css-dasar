@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjacent Sibling Selector</title>
+    <style>
+      /* Memilih semua element p yang berada setelah tag div */
+      /* tag div dan p memiliki parent yang sama yaitu body */
+      div + p {
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Dasar</h1>
+
+    <h3>Adjacent Sibling Selector</h3>
+    <!-- Adjacent Sibling Selector memilih element setelah element yang dipilih -->
+    <!-- Sibling(saudara) element harus memiliki parent yang sama -->
+    <div>
+      <article>
+        <p>Tidak Dipilih</p>
+      </article>
+      <p>Tidak Dipilih</p>
+    </div>
+    <p>Dipilih</p>
+    <p>Tidak Dipilih</p>
+  </body>
+</html>
