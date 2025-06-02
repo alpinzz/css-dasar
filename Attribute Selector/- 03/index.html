@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Attribute</title>
+    <style>
+      /* tag[attribute~="value"] */
+
+      /* Memilih semua element p yang memiliki attribute title dan terdapat kata belajar */
+      p[title~="belajar"] {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Dasar</h1>
+
+    <p title="belajar css">Dipilih</p>
+    <p title="belajarCss">Tidak Dipilih</p>
+  </body>
+</html>

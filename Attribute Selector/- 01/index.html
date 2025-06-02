@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Attribute</title>
+    <style>
+      /* Memilih semua element a yang memiliki attribute target */
+      a[target] {
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Dasar</h1>
+
+    <ul>
+      <li><a href="#" target="_self">Dipilih</a></li>
+      <li><a href="#">Tidak Dipilih</a></li>
+      <li><a href="#" target="_parent">Dipilih</a></li>
+    </ul>
+  </body>
+</html>
